@@ -38,7 +38,9 @@ module.exports = {
       }
     },
     extend: {
-      // ...
+      gridTemplateColumns: {
+        'statistic': 'repeat(auto-fit, minmax(120px, 1fr))'
+      }
     },
   },
   plugins: [],
