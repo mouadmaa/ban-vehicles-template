@@ -961,6 +961,324 @@
             </div>
         </section>
         <!-- Statistic Section End -->
+
+        <!-- Section Start -->
+        <section class="px-6 py-10 md:p-16 xl:p-32">
+            <div class="max-w-screen-xl mx-auto flex justify-between items-center">
+                <div class="space-y-1">
+                    <h2 class="text-h3 lg:text-h2 text-center sm:text-left font-semibold text-gray-800">Based on your location</h2>
+                    <p class="lg:text-sm text-gray-500 text-center sm:text-left">Some of our picked vehicles near you location.</p>
+                </div>
+                <div class="hidden md:block">
+                    <button class="whitespace-nowrap rounded-lg border-2 border-transparent bg-primary-default px-8 py-3 font-medium text-white shadow-md transition-all duration-300 hover:scale-105 hover:bg-primary-dark hover:shadow-lg active:scale-95">Browse more vehicles</button>
+                </div>
+            </div>
+            <div class="max-w-screen-xl mx-auto flex px-1 py-4 md:p-0 my-6 md:my-12 md:grid md:grid-cols-vehicles gap-x-8 md:gap-x-16 md:gap-y-10 overflow-x-auto md:overflow-visible">
+                <div class="group w-80 min-w-max md:w-full cursor-pointer rounded-lg bg-white shadow-lg ring-1 ring-gray-900/5 transition-shadow duration-500 hover:shadow-xl">
+                    <div class="relative w-full overflow-hidden rounded-t-lg">
+                        <img class="h-48 w-full object-cover duration-500 group-hover:scale-105" src="https://res.cloudinary.com/dksfz3vua/image/upload/v1673457410/VEHICLES/oknziaj12hwk4fpcii39_pfpvw6.avif" alt="car" />
+
+                        <button class="group/svg absolute top-2 right-2 flex h-10 w-10 items-center justify-center rounded-full bg-white/10 backdrop-blur-xl">
+                            <svg class="translate-y-px fill-white transition-transform duration-300 group-hover/svg:scale-110 group-active/svg:scale-90" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 8.40001C1.99975 6.95035 2.58239 5.56146 3.61681 4.54584C4.65124 3.53022 6.05058 2.97317 7.5 3.00001C9.21732 2.99089 10.856 3.71919 12 5.00001C13.144 3.71919 14.7827 2.99089 16.5 3.00001C17.9494 2.97317 19.3488 3.53022 20.3832 4.54584C21.4176 5.56146 22.0002 6.95035 22 8.40001C22 13.756 15.621 17.8 12 21C8.387 17.773 2 13.76 2 8.40001Z" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="relative space-y-2 divide-y-2 px-4 py-3">
+                        <div>
+                            <div class="absolute top-0 right-0 flex translate-x-2 -translate-y-[50%] items-center justify-center space-x-1 rounded-lg rounded-br-none bg-primary-default px-4 py-1.5 text-white">
+                                <svg class="fill-current" width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.0001 1.59961C4.21227 1.59961 4.41575 1.68389 4.56578 1.83392C4.71581 1.98395 4.8001 2.18744 4.8001 2.39961V3.19961H5.6001C5.81227 3.19961 6.01575 3.28389 6.16578 3.43392C6.31581 3.58395 6.4001 3.78744 6.4001 3.99961C6.4001 4.21178 6.31581 4.41527 6.16578 4.56529C6.01575 4.71532 5.81227 4.79961 5.6001 4.79961H4.8001V5.59961C4.8001 5.81178 4.71581 6.01527 4.56578 6.16529C4.41575 6.31532 4.21227 6.39961 4.0001 6.39961C3.78792 6.39961 3.58444 6.31532 3.43441 6.16529C3.28438 6.01527 3.2001 5.81178 3.2001 5.59961V4.79961H2.4001C2.18792 4.79961 1.98444 4.71532 1.83441 4.56529C1.68438 4.41527 1.6001 4.21178 1.6001 3.99961C1.6001 3.78744 1.68438 3.58395 1.83441 3.43392C1.98444 3.28389 2.18792 3.19961 2.4001 3.19961H3.2001V2.39961C3.2001 2.18744 3.28438 1.98395 3.43441 1.83392C3.58444 1.68389 3.78792 1.59961 4.0001 1.59961ZM4.0001 9.59961C4.21227 9.59961 4.41575 9.68389 4.56578 9.83392C4.71581 9.98395 4.8001 10.1874 4.8001 10.3996V11.1996H5.6001C5.81227 11.1996 6.01575 11.2839 6.16578 11.4339C6.31581 11.584 6.4001 11.7874 6.4001 11.9996C6.4001 12.2118 6.31581 12.4153 6.16578 12.5653C6.01575 12.7153 5.81227 12.7996 5.6001 12.7996H4.8001V13.5996C4.8001 13.8118 4.71581 14.0153 4.56578 14.1653C4.41575 14.3153 4.21227 14.3996 4.0001 14.3996C3.78792 14.3996 3.58444 14.3153 3.43441 14.1653C3.28438 14.0153 3.2001 13.8118 3.2001 13.5996V12.7996H2.4001C2.18792 12.7996 1.98444 12.7153 1.83441 12.5653C1.68438 12.4153 1.6001 12.2118 1.6001 11.9996C1.6001 11.7874 1.68438 11.584 1.83441 11.4339C1.98444 11.2839 2.18792 11.1996 2.4001 11.1996H3.2001V10.3996C3.2001 10.1874 3.28438 9.98395 3.43441 9.83392C3.58444 9.68389 3.78792 9.59961 4.0001 9.59961ZM9.6001 1.59961C9.77665 1.59955 9.94826 1.6579 10.0882 1.76556C10.2281 1.87322 10.3285 2.02414 10.3737 2.19481L11.3169 5.75961L14.0001 7.30681C14.1217 7.37703 14.2227 7.47802 14.2929 7.59963C14.3631 7.72124 14.4001 7.85919 14.4001 7.99961C14.4001 8.14003 14.3631 8.27798 14.2929 8.39959C14.2227 8.5212 14.1217 8.62219 14.0001 8.69241L11.3169 10.2404L10.3729 13.8044C10.3276 13.9749 10.2273 14.1257 10.0874 14.2332C9.94758 14.3408 9.77611 14.3991 9.5997 14.3991C9.42329 14.3991 9.25182 14.3408 9.11198 14.2332C8.97214 14.1257 8.87178 13.9749 8.8265 13.8044L7.8833 10.2396L5.2001 8.69241C5.07849 8.62219 4.97751 8.5212 4.9073 8.39959C4.83709 8.27798 4.80013 8.14003 4.80013 7.99961C4.80013 7.85919 4.83709 7.72124 4.9073 7.59963C4.97751 7.47802 5.07849 7.37703 5.2001 7.30681L7.8833 5.75881L8.8273 2.19481C8.87246 2.02427 8.97272 1.87345 9.11249 1.7658C9.25226 1.65816 9.42368 1.59973 9.6001 1.59961Z" />
+                                </svg>
+                                <svg class="absolute bottom-0 right-0 h-2 w-2 translate-y-[7.8px] translate-x-[0.2px] fill-primary-dark" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 24V0H24L12 12L0 24Z" />
+                                </svg>
+                                <span class="text-xs uppercase">popular</span>
+                            </div>
+
+                            <div>
+                                <span class="text-xl font-semibold text-primary-default">3,500.00 MAD</span>
+                                <span class="text-sm text-gray-500">/day</span>
+                            </div>
+
+                            <span class="text-xl font-semibold capitalize">Porsche turbo GT (2022)</span>
+                        </div>
+
+                        <div class="flex items-center justify-between px-0.5 pt-3 pb-1">
+                            <div class="flex items-center justify-center space-x-2">
+                                <img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/20/EF233C/external-gearbox-transportation-tanah-basah-glyph-tanah-basah-2.png" />
+                                <span class="text-sm capitalize text-gray-500">automatic</span>
+                            </div>
+
+                            <div class="flex items-center justify-center space-x-2">
+                                <img src="https://img.icons8.com/windows/24/EF233C/fuel-gas.png" />
+                                <span class="text-sm capitalize text-gray-500">diesel</span>
+                            </div>
+
+                            <div class="flex items-center justify-center space-x-2">
+                                <img src="https://img.icons8.com/windows/20/EF233C/baby-car-seat.png" />
+                                <span class="text-sm capitalize text-gray-500">5</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group w-80 min-w-max md:w-full cursor-pointer rounded-lg bg-white shadow-lg ring-1 ring-gray-900/5 transition-shadow duration-500 hover:shadow-xl">
+                    <div class="relative w-full overflow-hidden rounded-t-lg">
+                        <img class="h-48 w-full object-cover duration-500 group-hover:scale-105" src="https://res.cloudinary.com/dksfz3vua/image/upload/v1673457410/VEHICLES/oknziaj12hwk4fpcii39_pfpvw6.avif" alt="car" />
+
+                        <button class="group/svg absolute top-2 right-2 flex h-10 w-10 items-center justify-center rounded-full bg-white/10 backdrop-blur-xl">
+                            <svg class="translate-y-px fill-white transition-transform duration-300 group-hover/svg:scale-110 group-active/svg:scale-90" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 8.40001C1.99975 6.95035 2.58239 5.56146 3.61681 4.54584C4.65124 3.53022 6.05058 2.97317 7.5 3.00001C9.21732 2.99089 10.856 3.71919 12 5.00001C13.144 3.71919 14.7827 2.99089 16.5 3.00001C17.9494 2.97317 19.3488 3.53022 20.3832 4.54584C21.4176 5.56146 22.0002 6.95035 22 8.40001C22 13.756 15.621 17.8 12 21C8.387 17.773 2 13.76 2 8.40001Z" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="relative space-y-2 divide-y-2 px-4 py-3">
+                        <div>
+                            <div class="absolute top-0 right-0 flex translate-x-2 -translate-y-[50%] items-center justify-center space-x-1 rounded-lg rounded-br-none bg-primary-default px-4 py-1.5 text-white">
+                                <svg class="fill-current" width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.0001 1.59961C4.21227 1.59961 4.41575 1.68389 4.56578 1.83392C4.71581 1.98395 4.8001 2.18744 4.8001 2.39961V3.19961H5.6001C5.81227 3.19961 6.01575 3.28389 6.16578 3.43392C6.31581 3.58395 6.4001 3.78744 6.4001 3.99961C6.4001 4.21178 6.31581 4.41527 6.16578 4.56529C6.01575 4.71532 5.81227 4.79961 5.6001 4.79961H4.8001V5.59961C4.8001 5.81178 4.71581 6.01527 4.56578 6.16529C4.41575 6.31532 4.21227 6.39961 4.0001 6.39961C3.78792 6.39961 3.58444 6.31532 3.43441 6.16529C3.28438 6.01527 3.2001 5.81178 3.2001 5.59961V4.79961H2.4001C2.18792 4.79961 1.98444 4.71532 1.83441 4.56529C1.68438 4.41527 1.6001 4.21178 1.6001 3.99961C1.6001 3.78744 1.68438 3.58395 1.83441 3.43392C1.98444 3.28389 2.18792 3.19961 2.4001 3.19961H3.2001V2.39961C3.2001 2.18744 3.28438 1.98395 3.43441 1.83392C3.58444 1.68389 3.78792 1.59961 4.0001 1.59961ZM4.0001 9.59961C4.21227 9.59961 4.41575 9.68389 4.56578 9.83392C4.71581 9.98395 4.8001 10.1874 4.8001 10.3996V11.1996H5.6001C5.81227 11.1996 6.01575 11.2839 6.16578 11.4339C6.31581 11.584 6.4001 11.7874 6.4001 11.9996C6.4001 12.2118 6.31581 12.4153 6.16578 12.5653C6.01575 12.7153 5.81227 12.7996 5.6001 12.7996H4.8001V13.5996C4.8001 13.8118 4.71581 14.0153 4.56578 14.1653C4.41575 14.3153 4.21227 14.3996 4.0001 14.3996C3.78792 14.3996 3.58444 14.3153 3.43441 14.1653C3.28438 14.0153 3.2001 13.8118 3.2001 13.5996V12.7996H2.4001C2.18792 12.7996 1.98444 12.7153 1.83441 12.5653C1.68438 12.4153 1.6001 12.2118 1.6001 11.9996C1.6001 11.7874 1.68438 11.584 1.83441 11.4339C1.98444 11.2839 2.18792 11.1996 2.4001 11.1996H3.2001V10.3996C3.2001 10.1874 3.28438 9.98395 3.43441 9.83392C3.58444 9.68389 3.78792 9.59961 4.0001 9.59961ZM9.6001 1.59961C9.77665 1.59955 9.94826 1.6579 10.0882 1.76556C10.2281 1.87322 10.3285 2.02414 10.3737 2.19481L11.3169 5.75961L14.0001 7.30681C14.1217 7.37703 14.2227 7.47802 14.2929 7.59963C14.3631 7.72124 14.4001 7.85919 14.4001 7.99961C14.4001 8.14003 14.3631 8.27798 14.2929 8.39959C14.2227 8.5212 14.1217 8.62219 14.0001 8.69241L11.3169 10.2404L10.3729 13.8044C10.3276 13.9749 10.2273 14.1257 10.0874 14.2332C9.94758 14.3408 9.77611 14.3991 9.5997 14.3991C9.42329 14.3991 9.25182 14.3408 9.11198 14.2332C8.97214 14.1257 8.87178 13.9749 8.8265 13.8044L7.8833 10.2396L5.2001 8.69241C5.07849 8.62219 4.97751 8.5212 4.9073 8.39959C4.83709 8.27798 4.80013 8.14003 4.80013 7.99961C4.80013 7.85919 4.83709 7.72124 4.9073 7.59963C4.97751 7.47802 5.07849 7.37703 5.2001 7.30681L7.8833 5.75881L8.8273 2.19481C8.87246 2.02427 8.97272 1.87345 9.11249 1.7658C9.25226 1.65816 9.42368 1.59973 9.6001 1.59961Z" />
+                                </svg>
+                                <svg class="absolute bottom-0 right-0 h-2 w-2 translate-y-[7.8px] translate-x-[0.2px] fill-primary-dark" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 24V0H24L12 12L0 24Z" />
+                                </svg>
+                                <span class="text-xs uppercase">popular</span>
+                            </div>
+
+                            <div>
+                                <span class="text-xl font-semibold text-primary-default">3,500.00 MAD</span>
+                                <span class="text-sm text-gray-500">/day</span>
+                            </div>
+
+                            <span class="text-xl font-semibold capitalize">Porsche turbo GT (2022)</span>
+                        </div>
+
+                        <div class="flex items-center justify-between px-0.5 pt-3 pb-1">
+                            <div class="flex items-center justify-center space-x-2">
+                                <img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/20/EF233C/external-gearbox-transportation-tanah-basah-glyph-tanah-basah-2.png" />
+                                <span class="text-sm capitalize text-gray-500">automatic</span>
+                            </div>
+
+                            <div class="flex items-center justify-center space-x-2">
+                                <img src="https://img.icons8.com/windows/24/EF233C/fuel-gas.png" />
+                                <span class="text-sm capitalize text-gray-500">diesel</span>
+                            </div>
+
+                            <div class="flex items-center justify-center space-x-2">
+                                <img src="https://img.icons8.com/windows/20/EF233C/baby-car-seat.png" />
+                                <span class="text-sm capitalize text-gray-500">5</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group w-80 min-w-max md:w-full cursor-pointer rounded-lg bg-white shadow-lg ring-1 ring-gray-900/5 transition-shadow duration-500 hover:shadow-xl">
+                    <div class="relative w-full overflow-hidden rounded-t-lg">
+                        <img class="h-48 w-full object-cover duration-500 group-hover:scale-105" src="https://res.cloudinary.com/dksfz3vua/image/upload/v1673457410/VEHICLES/oknziaj12hwk4fpcii39_pfpvw6.avif" alt="car" />
+
+                        <button class="group/svg absolute top-2 right-2 flex h-10 w-10 items-center justify-center rounded-full bg-white/10 backdrop-blur-xl">
+                            <svg class="translate-y-px fill-white transition-transform duration-300 group-hover/svg:scale-110 group-active/svg:scale-90" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 8.40001C1.99975 6.95035 2.58239 5.56146 3.61681 4.54584C4.65124 3.53022 6.05058 2.97317 7.5 3.00001C9.21732 2.99089 10.856 3.71919 12 5.00001C13.144 3.71919 14.7827 2.99089 16.5 3.00001C17.9494 2.97317 19.3488 3.53022 20.3832 4.54584C21.4176 5.56146 22.0002 6.95035 22 8.40001C22 13.756 15.621 17.8 12 21C8.387 17.773 2 13.76 2 8.40001Z" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="relative space-y-2 divide-y-2 px-4 py-3">
+                        <div>
+                            <div class="absolute top-0 right-0 flex translate-x-2 -translate-y-[50%] items-center justify-center space-x-1 rounded-lg rounded-br-none bg-primary-default px-4 py-1.5 text-white">
+                                <svg class="fill-current" width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.0001 1.59961C4.21227 1.59961 4.41575 1.68389 4.56578 1.83392C4.71581 1.98395 4.8001 2.18744 4.8001 2.39961V3.19961H5.6001C5.81227 3.19961 6.01575 3.28389 6.16578 3.43392C6.31581 3.58395 6.4001 3.78744 6.4001 3.99961C6.4001 4.21178 6.31581 4.41527 6.16578 4.56529C6.01575 4.71532 5.81227 4.79961 5.6001 4.79961H4.8001V5.59961C4.8001 5.81178 4.71581 6.01527 4.56578 6.16529C4.41575 6.31532 4.21227 6.39961 4.0001 6.39961C3.78792 6.39961 3.58444 6.31532 3.43441 6.16529C3.28438 6.01527 3.2001 5.81178 3.2001 5.59961V4.79961H2.4001C2.18792 4.79961 1.98444 4.71532 1.83441 4.56529C1.68438 4.41527 1.6001 4.21178 1.6001 3.99961C1.6001 3.78744 1.68438 3.58395 1.83441 3.43392C1.98444 3.28389 2.18792 3.19961 2.4001 3.19961H3.2001V2.39961C3.2001 2.18744 3.28438 1.98395 3.43441 1.83392C3.58444 1.68389 3.78792 1.59961 4.0001 1.59961ZM4.0001 9.59961C4.21227 9.59961 4.41575 9.68389 4.56578 9.83392C4.71581 9.98395 4.8001 10.1874 4.8001 10.3996V11.1996H5.6001C5.81227 11.1996 6.01575 11.2839 6.16578 11.4339C6.31581 11.584 6.4001 11.7874 6.4001 11.9996C6.4001 12.2118 6.31581 12.4153 6.16578 12.5653C6.01575 12.7153 5.81227 12.7996 5.6001 12.7996H4.8001V13.5996C4.8001 13.8118 4.71581 14.0153 4.56578 14.1653C4.41575 14.3153 4.21227 14.3996 4.0001 14.3996C3.78792 14.3996 3.58444 14.3153 3.43441 14.1653C3.28438 14.0153 3.2001 13.8118 3.2001 13.5996V12.7996H2.4001C2.18792 12.7996 1.98444 12.7153 1.83441 12.5653C1.68438 12.4153 1.6001 12.2118 1.6001 11.9996C1.6001 11.7874 1.68438 11.584 1.83441 11.4339C1.98444 11.2839 2.18792 11.1996 2.4001 11.1996H3.2001V10.3996C3.2001 10.1874 3.28438 9.98395 3.43441 9.83392C3.58444 9.68389 3.78792 9.59961 4.0001 9.59961ZM9.6001 1.59961C9.77665 1.59955 9.94826 1.6579 10.0882 1.76556C10.2281 1.87322 10.3285 2.02414 10.3737 2.19481L11.3169 5.75961L14.0001 7.30681C14.1217 7.37703 14.2227 7.47802 14.2929 7.59963C14.3631 7.72124 14.4001 7.85919 14.4001 7.99961C14.4001 8.14003 14.3631 8.27798 14.2929 8.39959C14.2227 8.5212 14.1217 8.62219 14.0001 8.69241L11.3169 10.2404L10.3729 13.8044C10.3276 13.9749 10.2273 14.1257 10.0874 14.2332C9.94758 14.3408 9.77611 14.3991 9.5997 14.3991C9.42329 14.3991 9.25182 14.3408 9.11198 14.2332C8.97214 14.1257 8.87178 13.9749 8.8265 13.8044L7.8833 10.2396L5.2001 8.69241C5.07849 8.62219 4.97751 8.5212 4.9073 8.39959C4.83709 8.27798 4.80013 8.14003 4.80013 7.99961C4.80013 7.85919 4.83709 7.72124 4.9073 7.59963C4.97751 7.47802 5.07849 7.37703 5.2001 7.30681L7.8833 5.75881L8.8273 2.19481C8.87246 2.02427 8.97272 1.87345 9.11249 1.7658C9.25226 1.65816 9.42368 1.59973 9.6001 1.59961Z" />
+                                </svg>
+                                <svg class="absolute bottom-0 right-0 h-2 w-2 translate-y-[7.8px] translate-x-[0.2px] fill-primary-dark" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 24V0H24L12 12L0 24Z" />
+                                </svg>
+                                <span class="text-xs uppercase">popular</span>
+                            </div>
+
+                            <div>
+                                <span class="text-xl font-semibold text-primary-default">3,500.00 MAD</span>
+                                <span class="text-sm text-gray-500">/day</span>
+                            </div>
+
+                            <span class="text-xl font-semibold capitalize">Porsche turbo GT (2022)</span>
+                        </div>
+
+                        <div class="flex items-center justify-between px-0.5 pt-3 pb-1">
+                            <div class="flex items-center justify-center space-x-2">
+                                <img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/20/EF233C/external-gearbox-transportation-tanah-basah-glyph-tanah-basah-2.png" />
+                                <span class="text-sm capitalize text-gray-500">automatic</span>
+                            </div>
+
+                            <div class="flex items-center justify-center space-x-2">
+                                <img src="https://img.icons8.com/windows/24/EF233C/fuel-gas.png" />
+                                <span class="text-sm capitalize text-gray-500">diesel</span>
+                            </div>
+
+                            <div class="flex items-center justify-center space-x-2">
+                                <img src="https://img.icons8.com/windows/20/EF233C/baby-car-seat.png" />
+                                <span class="text-sm capitalize text-gray-500">5</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group w-80 min-w-max md:w-full cursor-pointer rounded-lg bg-white shadow-lg ring-1 ring-gray-900/5 transition-shadow duration-500 hover:shadow-xl">
+                    <div class="relative w-full overflow-hidden rounded-t-lg">
+                        <img class="h-48 w-full object-cover duration-500 group-hover:scale-105" src="https://res.cloudinary.com/dksfz3vua/image/upload/v1673457410/VEHICLES/oknziaj12hwk4fpcii39_pfpvw6.avif" alt="car" />
+
+                        <button class="group/svg absolute top-2 right-2 flex h-10 w-10 items-center justify-center rounded-full bg-white/10 backdrop-blur-xl">
+                            <svg class="translate-y-px fill-white transition-transform duration-300 group-hover/svg:scale-110 group-active/svg:scale-90" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 8.40001C1.99975 6.95035 2.58239 5.56146 3.61681 4.54584C4.65124 3.53022 6.05058 2.97317 7.5 3.00001C9.21732 2.99089 10.856 3.71919 12 5.00001C13.144 3.71919 14.7827 2.99089 16.5 3.00001C17.9494 2.97317 19.3488 3.53022 20.3832 4.54584C21.4176 5.56146 22.0002 6.95035 22 8.40001C22 13.756 15.621 17.8 12 21C8.387 17.773 2 13.76 2 8.40001Z" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="relative space-y-2 divide-y-2 px-4 py-3">
+                        <div>
+                            <div class="absolute top-0 right-0 flex translate-x-2 -translate-y-[50%] items-center justify-center space-x-1 rounded-lg rounded-br-none bg-primary-default px-4 py-1.5 text-white">
+                                <svg class="fill-current" width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.0001 1.59961C4.21227 1.59961 4.41575 1.68389 4.56578 1.83392C4.71581 1.98395 4.8001 2.18744 4.8001 2.39961V3.19961H5.6001C5.81227 3.19961 6.01575 3.28389 6.16578 3.43392C6.31581 3.58395 6.4001 3.78744 6.4001 3.99961C6.4001 4.21178 6.31581 4.41527 6.16578 4.56529C6.01575 4.71532 5.81227 4.79961 5.6001 4.79961H4.8001V5.59961C4.8001 5.81178 4.71581 6.01527 4.56578 6.16529C4.41575 6.31532 4.21227 6.39961 4.0001 6.39961C3.78792 6.39961 3.58444 6.31532 3.43441 6.16529C3.28438 6.01527 3.2001 5.81178 3.2001 5.59961V4.79961H2.4001C2.18792 4.79961 1.98444 4.71532 1.83441 4.56529C1.68438 4.41527 1.6001 4.21178 1.6001 3.99961C1.6001 3.78744 1.68438 3.58395 1.83441 3.43392C1.98444 3.28389 2.18792 3.19961 2.4001 3.19961H3.2001V2.39961C3.2001 2.18744 3.28438 1.98395 3.43441 1.83392C3.58444 1.68389 3.78792 1.59961 4.0001 1.59961ZM4.0001 9.59961C4.21227 9.59961 4.41575 9.68389 4.56578 9.83392C4.71581 9.98395 4.8001 10.1874 4.8001 10.3996V11.1996H5.6001C5.81227 11.1996 6.01575 11.2839 6.16578 11.4339C6.31581 11.584 6.4001 11.7874 6.4001 11.9996C6.4001 12.2118 6.31581 12.4153 6.16578 12.5653C6.01575 12.7153 5.81227 12.7996 5.6001 12.7996H4.8001V13.5996C4.8001 13.8118 4.71581 14.0153 4.56578 14.1653C4.41575 14.3153 4.21227 14.3996 4.0001 14.3996C3.78792 14.3996 3.58444 14.3153 3.43441 14.1653C3.28438 14.0153 3.2001 13.8118 3.2001 13.5996V12.7996H2.4001C2.18792 12.7996 1.98444 12.7153 1.83441 12.5653C1.68438 12.4153 1.6001 12.2118 1.6001 11.9996C1.6001 11.7874 1.68438 11.584 1.83441 11.4339C1.98444 11.2839 2.18792 11.1996 2.4001 11.1996H3.2001V10.3996C3.2001 10.1874 3.28438 9.98395 3.43441 9.83392C3.58444 9.68389 3.78792 9.59961 4.0001 9.59961ZM9.6001 1.59961C9.77665 1.59955 9.94826 1.6579 10.0882 1.76556C10.2281 1.87322 10.3285 2.02414 10.3737 2.19481L11.3169 5.75961L14.0001 7.30681C14.1217 7.37703 14.2227 7.47802 14.2929 7.59963C14.3631 7.72124 14.4001 7.85919 14.4001 7.99961C14.4001 8.14003 14.3631 8.27798 14.2929 8.39959C14.2227 8.5212 14.1217 8.62219 14.0001 8.69241L11.3169 10.2404L10.3729 13.8044C10.3276 13.9749 10.2273 14.1257 10.0874 14.2332C9.94758 14.3408 9.77611 14.3991 9.5997 14.3991C9.42329 14.3991 9.25182 14.3408 9.11198 14.2332C8.97214 14.1257 8.87178 13.9749 8.8265 13.8044L7.8833 10.2396L5.2001 8.69241C5.07849 8.62219 4.97751 8.5212 4.9073 8.39959C4.83709 8.27798 4.80013 8.14003 4.80013 7.99961C4.80013 7.85919 4.83709 7.72124 4.9073 7.59963C4.97751 7.47802 5.07849 7.37703 5.2001 7.30681L7.8833 5.75881L8.8273 2.19481C8.87246 2.02427 8.97272 1.87345 9.11249 1.7658C9.25226 1.65816 9.42368 1.59973 9.6001 1.59961Z" />
+                                </svg>
+                                <svg class="absolute bottom-0 right-0 h-2 w-2 translate-y-[7.8px] translate-x-[0.2px] fill-primary-dark" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 24V0H24L12 12L0 24Z" />
+                                </svg>
+                                <span class="text-xs uppercase">popular</span>
+                            </div>
+
+                            <div>
+                                <span class="text-xl font-semibold text-primary-default">3,500.00 MAD</span>
+                                <span class="text-sm text-gray-500">/day</span>
+                            </div>
+
+                            <span class="text-xl font-semibold capitalize">Porsche turbo GT (2022)</span>
+                        </div>
+
+                        <div class="flex items-center justify-between px-0.5 pt-3 pb-1">
+                            <div class="flex items-center justify-center space-x-2">
+                                <img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/20/EF233C/external-gearbox-transportation-tanah-basah-glyph-tanah-basah-2.png" />
+                                <span class="text-sm capitalize text-gray-500">automatic</span>
+                            </div>
+
+                            <div class="flex items-center justify-center space-x-2">
+                                <img src="https://img.icons8.com/windows/24/EF233C/fuel-gas.png" />
+                                <span class="text-sm capitalize text-gray-500">diesel</span>
+                            </div>
+
+                            <div class="flex items-center justify-center space-x-2">
+                                <img src="https://img.icons8.com/windows/20/EF233C/baby-car-seat.png" />
+                                <span class="text-sm capitalize text-gray-500">5</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group w-80 min-w-max md:w-full cursor-pointer rounded-lg bg-white shadow-lg ring-1 ring-gray-900/5 transition-shadow duration-500 hover:shadow-xl">
+                    <div class="relative w-full overflow-hidden rounded-t-lg">
+                        <img class="h-48 w-full object-cover duration-500 group-hover:scale-105" src="https://res.cloudinary.com/dksfz3vua/image/upload/v1673457410/VEHICLES/oknziaj12hwk4fpcii39_pfpvw6.avif" alt="car" />
+
+                        <button class="group/svg absolute top-2 right-2 flex h-10 w-10 items-center justify-center rounded-full bg-white/10 backdrop-blur-xl">
+                            <svg class="translate-y-px fill-white transition-transform duration-300 group-hover/svg:scale-110 group-active/svg:scale-90" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 8.40001C1.99975 6.95035 2.58239 5.56146 3.61681 4.54584C4.65124 3.53022 6.05058 2.97317 7.5 3.00001C9.21732 2.99089 10.856 3.71919 12 5.00001C13.144 3.71919 14.7827 2.99089 16.5 3.00001C17.9494 2.97317 19.3488 3.53022 20.3832 4.54584C21.4176 5.56146 22.0002 6.95035 22 8.40001C22 13.756 15.621 17.8 12 21C8.387 17.773 2 13.76 2 8.40001Z" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="relative space-y-2 divide-y-2 px-4 py-3">
+                        <div>
+                            <div class="absolute top-0 right-0 flex translate-x-2 -translate-y-[50%] items-center justify-center space-x-1 rounded-lg rounded-br-none bg-primary-default px-4 py-1.5 text-white">
+                                <svg class="fill-current" width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.0001 1.59961C4.21227 1.59961 4.41575 1.68389 4.56578 1.83392C4.71581 1.98395 4.8001 2.18744 4.8001 2.39961V3.19961H5.6001C5.81227 3.19961 6.01575 3.28389 6.16578 3.43392C6.31581 3.58395 6.4001 3.78744 6.4001 3.99961C6.4001 4.21178 6.31581 4.41527 6.16578 4.56529C6.01575 4.71532 5.81227 4.79961 5.6001 4.79961H4.8001V5.59961C4.8001 5.81178 4.71581 6.01527 4.56578 6.16529C4.41575 6.31532 4.21227 6.39961 4.0001 6.39961C3.78792 6.39961 3.58444 6.31532 3.43441 6.16529C3.28438 6.01527 3.2001 5.81178 3.2001 5.59961V4.79961H2.4001C2.18792 4.79961 1.98444 4.71532 1.83441 4.56529C1.68438 4.41527 1.6001 4.21178 1.6001 3.99961C1.6001 3.78744 1.68438 3.58395 1.83441 3.43392C1.98444 3.28389 2.18792 3.19961 2.4001 3.19961H3.2001V2.39961C3.2001 2.18744 3.28438 1.98395 3.43441 1.83392C3.58444 1.68389 3.78792 1.59961 4.0001 1.59961ZM4.0001 9.59961C4.21227 9.59961 4.41575 9.68389 4.56578 9.83392C4.71581 9.98395 4.8001 10.1874 4.8001 10.3996V11.1996H5.6001C5.81227 11.1996 6.01575 11.2839 6.16578 11.4339C6.31581 11.584 6.4001 11.7874 6.4001 11.9996C6.4001 12.2118 6.31581 12.4153 6.16578 12.5653C6.01575 12.7153 5.81227 12.7996 5.6001 12.7996H4.8001V13.5996C4.8001 13.8118 4.71581 14.0153 4.56578 14.1653C4.41575 14.3153 4.21227 14.3996 4.0001 14.3996C3.78792 14.3996 3.58444 14.3153 3.43441 14.1653C3.28438 14.0153 3.2001 13.8118 3.2001 13.5996V12.7996H2.4001C2.18792 12.7996 1.98444 12.7153 1.83441 12.5653C1.68438 12.4153 1.6001 12.2118 1.6001 11.9996C1.6001 11.7874 1.68438 11.584 1.83441 11.4339C1.98444 11.2839 2.18792 11.1996 2.4001 11.1996H3.2001V10.3996C3.2001 10.1874 3.28438 9.98395 3.43441 9.83392C3.58444 9.68389 3.78792 9.59961 4.0001 9.59961ZM9.6001 1.59961C9.77665 1.59955 9.94826 1.6579 10.0882 1.76556C10.2281 1.87322 10.3285 2.02414 10.3737 2.19481L11.3169 5.75961L14.0001 7.30681C14.1217 7.37703 14.2227 7.47802 14.2929 7.59963C14.3631 7.72124 14.4001 7.85919 14.4001 7.99961C14.4001 8.14003 14.3631 8.27798 14.2929 8.39959C14.2227 8.5212 14.1217 8.62219 14.0001 8.69241L11.3169 10.2404L10.3729 13.8044C10.3276 13.9749 10.2273 14.1257 10.0874 14.2332C9.94758 14.3408 9.77611 14.3991 9.5997 14.3991C9.42329 14.3991 9.25182 14.3408 9.11198 14.2332C8.97214 14.1257 8.87178 13.9749 8.8265 13.8044L7.8833 10.2396L5.2001 8.69241C5.07849 8.62219 4.97751 8.5212 4.9073 8.39959C4.83709 8.27798 4.80013 8.14003 4.80013 7.99961C4.80013 7.85919 4.83709 7.72124 4.9073 7.59963C4.97751 7.47802 5.07849 7.37703 5.2001 7.30681L7.8833 5.75881L8.8273 2.19481C8.87246 2.02427 8.97272 1.87345 9.11249 1.7658C9.25226 1.65816 9.42368 1.59973 9.6001 1.59961Z" />
+                                </svg>
+                                <svg class="absolute bottom-0 right-0 h-2 w-2 translate-y-[7.8px] translate-x-[0.2px] fill-primary-dark" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 24V0H24L12 12L0 24Z" />
+                                </svg>
+                                <span class="text-xs uppercase">popular</span>
+                            </div>
+
+                            <div>
+                                <span class="text-xl font-semibold text-primary-default">3,500.00 MAD</span>
+                                <span class="text-sm text-gray-500">/day</span>
+                            </div>
+
+                            <span class="text-xl font-semibold capitalize">Porsche turbo GT (2022)</span>
+                        </div>
+
+                        <div class="flex items-center justify-between px-0.5 pt-3 pb-1">
+                            <div class="flex items-center justify-center space-x-2">
+                                <img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/20/EF233C/external-gearbox-transportation-tanah-basah-glyph-tanah-basah-2.png" />
+                                <span class="text-sm capitalize text-gray-500">automatic</span>
+                            </div>
+
+                            <div class="flex items-center justify-center space-x-2">
+                                <img src="https://img.icons8.com/windows/24/EF233C/fuel-gas.png" />
+                                <span class="text-sm capitalize text-gray-500">diesel</span>
+                            </div>
+
+                            <div class="flex items-center justify-center space-x-2">
+                                <img src="https://img.icons8.com/windows/20/EF233C/baby-car-seat.png" />
+                                <span class="text-sm capitalize text-gray-500">5</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group w-80 min-w-max md:w-full cursor-pointer rounded-lg bg-white shadow-lg ring-1 ring-gray-900/5 transition-shadow duration-500 hover:shadow-xl">
+                    <div class="relative w-full overflow-hidden rounded-t-lg">
+                        <img class="h-48 w-full object-cover duration-500 group-hover:scale-105" src="https://res.cloudinary.com/dksfz3vua/image/upload/v1673457410/VEHICLES/oknziaj12hwk4fpcii39_pfpvw6.avif" alt="car" />
+
+                        <button class="group/svg absolute top-2 right-2 flex h-10 w-10 items-center justify-center rounded-full bg-white/10 backdrop-blur-xl">
+                            <svg class="translate-y-px fill-white transition-transform duration-300 group-hover/svg:scale-110 group-active/svg:scale-90" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 8.40001C1.99975 6.95035 2.58239 5.56146 3.61681 4.54584C4.65124 3.53022 6.05058 2.97317 7.5 3.00001C9.21732 2.99089 10.856 3.71919 12 5.00001C13.144 3.71919 14.7827 2.99089 16.5 3.00001C17.9494 2.97317 19.3488 3.53022 20.3832 4.54584C21.4176 5.56146 22.0002 6.95035 22 8.40001C22 13.756 15.621 17.8 12 21C8.387 17.773 2 13.76 2 8.40001Z" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="relative space-y-2 divide-y-2 px-4 py-3">
+                        <div>
+                            <div class="absolute top-0 right-0 flex translate-x-2 -translate-y-[50%] items-center justify-center space-x-1 rounded-lg rounded-br-none bg-primary-default px-4 py-1.5 text-white">
+                                <svg class="fill-current" width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.0001 1.59961C4.21227 1.59961 4.41575 1.68389 4.56578 1.83392C4.71581 1.98395 4.8001 2.18744 4.8001 2.39961V3.19961H5.6001C5.81227 3.19961 6.01575 3.28389 6.16578 3.43392C6.31581 3.58395 6.4001 3.78744 6.4001 3.99961C6.4001 4.21178 6.31581 4.41527 6.16578 4.56529C6.01575 4.71532 5.81227 4.79961 5.6001 4.79961H4.8001V5.59961C4.8001 5.81178 4.71581 6.01527 4.56578 6.16529C4.41575 6.31532 4.21227 6.39961 4.0001 6.39961C3.78792 6.39961 3.58444 6.31532 3.43441 6.16529C3.28438 6.01527 3.2001 5.81178 3.2001 5.59961V4.79961H2.4001C2.18792 4.79961 1.98444 4.71532 1.83441 4.56529C1.68438 4.41527 1.6001 4.21178 1.6001 3.99961C1.6001 3.78744 1.68438 3.58395 1.83441 3.43392C1.98444 3.28389 2.18792 3.19961 2.4001 3.19961H3.2001V2.39961C3.2001 2.18744 3.28438 1.98395 3.43441 1.83392C3.58444 1.68389 3.78792 1.59961 4.0001 1.59961ZM4.0001 9.59961C4.21227 9.59961 4.41575 9.68389 4.56578 9.83392C4.71581 9.98395 4.8001 10.1874 4.8001 10.3996V11.1996H5.6001C5.81227 11.1996 6.01575 11.2839 6.16578 11.4339C6.31581 11.584 6.4001 11.7874 6.4001 11.9996C6.4001 12.2118 6.31581 12.4153 6.16578 12.5653C6.01575 12.7153 5.81227 12.7996 5.6001 12.7996H4.8001V13.5996C4.8001 13.8118 4.71581 14.0153 4.56578 14.1653C4.41575 14.3153 4.21227 14.3996 4.0001 14.3996C3.78792 14.3996 3.58444 14.3153 3.43441 14.1653C3.28438 14.0153 3.2001 13.8118 3.2001 13.5996V12.7996H2.4001C2.18792 12.7996 1.98444 12.7153 1.83441 12.5653C1.68438 12.4153 1.6001 12.2118 1.6001 11.9996C1.6001 11.7874 1.68438 11.584 1.83441 11.4339C1.98444 11.2839 2.18792 11.1996 2.4001 11.1996H3.2001V10.3996C3.2001 10.1874 3.28438 9.98395 3.43441 9.83392C3.58444 9.68389 3.78792 9.59961 4.0001 9.59961ZM9.6001 1.59961C9.77665 1.59955 9.94826 1.6579 10.0882 1.76556C10.2281 1.87322 10.3285 2.02414 10.3737 2.19481L11.3169 5.75961L14.0001 7.30681C14.1217 7.37703 14.2227 7.47802 14.2929 7.59963C14.3631 7.72124 14.4001 7.85919 14.4001 7.99961C14.4001 8.14003 14.3631 8.27798 14.2929 8.39959C14.2227 8.5212 14.1217 8.62219 14.0001 8.69241L11.3169 10.2404L10.3729 13.8044C10.3276 13.9749 10.2273 14.1257 10.0874 14.2332C9.94758 14.3408 9.77611 14.3991 9.5997 14.3991C9.42329 14.3991 9.25182 14.3408 9.11198 14.2332C8.97214 14.1257 8.87178 13.9749 8.8265 13.8044L7.8833 10.2396L5.2001 8.69241C5.07849 8.62219 4.97751 8.5212 4.9073 8.39959C4.83709 8.27798 4.80013 8.14003 4.80013 7.99961C4.80013 7.85919 4.83709 7.72124 4.9073 7.59963C4.97751 7.47802 5.07849 7.37703 5.2001 7.30681L7.8833 5.75881L8.8273 2.19481C8.87246 2.02427 8.97272 1.87345 9.11249 1.7658C9.25226 1.65816 9.42368 1.59973 9.6001 1.59961Z" />
+                                </svg>
+                                <svg class="absolute bottom-0 right-0 h-2 w-2 translate-y-[7.8px] translate-x-[0.2px] fill-primary-dark" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 24V0H24L12 12L0 24Z" />
+                                </svg>
+                                <span class="text-xs uppercase">popular</span>
+                            </div>
+
+                            <div>
+                                <span class="text-xl font-semibold text-primary-default">3,500.00 MAD</span>
+                                <span class="text-sm text-gray-500">/day</span>
+                            </div>
+
+                            <span class="text-xl font-semibold capitalize">Porsche turbo GT (2022)</span>
+                        </div>
+
+                        <div class="flex items-center justify-between px-0.5 pt-3 pb-1">
+                            <div class="flex items-center justify-center space-x-2">
+                                <img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/20/EF233C/external-gearbox-transportation-tanah-basah-glyph-tanah-basah-2.png" />
+                                <span class="text-sm capitalize text-gray-500">automatic</span>
+                            </div>
+
+                            <div class="flex items-center justify-center space-x-2">
+                                <img src="https://img.icons8.com/windows/24/EF233C/fuel-gas.png" />
+                                <span class="text-sm capitalize text-gray-500">diesel</span>
+                            </div>
+
+                            <div class="flex items-center justify-center space-x-2">
+                                <img src="https://img.icons8.com/windows/20/EF233C/baby-car-seat.png" />
+                                <span class="text-sm capitalize text-gray-500">5</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center md:hidden">
+                <button class="w-full whitespace-nowrap rounded-lg border-2 border-transparent bg-primary-default px-8 py-3 font-medium text-white shadow-md transition-all duration-300 hover:scale-105 hover:bg-primary-dark hover:shadow-lg active:scale-95">Browse more vehicles</button>
+            </div>
+        </section>
+        <!-- Section End -->
     </main>
 </body>
 </html>

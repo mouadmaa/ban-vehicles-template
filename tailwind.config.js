@@ -39,7 +39,8 @@ module.exports = {
     },
     extend: {
       gridTemplateColumns: {
-        'statistic': 'repeat(auto-fit, minmax(120px, 1fr))'
+        'statistic': 'repeat(auto-fit, minmax(120px, 1fr))',
+        'vehicles': 'repeat(auto-fit, minmax(320px, 1fr))',
       }
     },
   },
