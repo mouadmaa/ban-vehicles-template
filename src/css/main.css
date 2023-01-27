@@ -3,3 +3,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*body {*/
+/*    @apply mx-auto max-w-screen-2xl text-black;*/
+/*}*/
+
+/*section {*/
+/*    @apply mx-auto max-w-screen-xl;*/
+/*}*/
